@@ -1,6 +1,6 @@
 ## Biomedical Engineering MEng Candidate | University of West Attica (UNIWA)
 
-Final-year integrated master’s student specializing in computational biology, machine learning, and mathematical modeling of biological systems. My academic background spans signal processing, Fourier analysis, control systems, pattern recognition, and numerical methods—which shapes how I approach software and data problems: treating pipelines as deterministic, testable systems rather than one-off scripts.
+Final-year integrated master’s student specializing in computational biology, machine learning, and mathematical modeling of biological systems. My academic background spans signal processing, Fourier analysis, control systems, pattern recognition, and numerical methods. My passion is applying an engineering approach to complex real world problems through computational science.
 
 ### Focus Areas
 

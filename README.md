@@ -1,18 +1,16 @@
-## Biomedical Engineering MEng Candidate | University of West Attica (UNIWA)
+## Biomedical Engineering Master's Student | University of West Attica
 
-Final-year integrated master’s student in Biomedical Engineering (300 ECTS). My training centers on quantitative engineering—signal processing, Fourier analysis, control systems, numerical methods, and pattern recognition—which shapes how I build software: framing messy domain questions as testable, deterministic pipelines from raw data to deployment.
+I'm in the final stretch of my 5-year Integrated Master's (MEng) in Biomedical Engineering at UNIWA. Significant of my coursework includes quantitative engineering: signal processing, control systems, numerical methods, and pattern recognition. I enjoy putting those fundamentals to work on real data problems.
 
-While my primary focus is **biotech, systems & synthetic biology, spatial omics, and agritech**, the same statistical and engineering habits carry across any numerical or multimodal problem—whether working with gene expression matrices, histology textures, meteorological forecasts, or tabular risk records.
+My main focus is bioengineering, systems and synthetic biology, and *in silico* biological data pipelines, alongside agritech. At the same time, I like testing my skills outside my main domain. My engineering approach stays the same. I focus on creating clean, reproducible pipelines from raw data to evaluation, and present the results through clear visuals or interactive web demos.
 
-### Selected Work
+### A look at my work
 
-- **[Coffee-Rust-Forecast](https://github.com/alexkeranis/Coffee-Rust-Forecast)** — Seven-night epidemiological risk forecaster for *Hemileia vastatrix* in Minas Gerais, pairing domain-derived wetness/temperature labels with GFS bias-corrected XGBoost and automated daily GitHub Actions inference.
-- **[Prostate Visium Candidate Markers](https://github.com/alexkeranis/Prostate-Visium-Candidate-Markers)** — Reproducible 10x Visium spatial transcriptomics and H&E stain-concordance pipeline ranking candidate biomarkers while controlling for slide-level composition and batch effects.
-- **[Xenium Basic Analysis](https://github.com/alexkeranis/Xenium-Basic-Analysis)** — Imaging-based spatial transcriptomics workflow (~248k ovarian cancer cells) with assay-specific normalization, depth-matched validation, and cell-type annotation.
-- **[Default-Risk-Interactive-Predictor](https://github.com/alexkeranis/Default-Risk-Interactive-Predictor)** — Leak-free, calibrated BNPL credit-risk benchmark comparing Logistic Regression, XGBoost, and a PyTorch Tabular ResNet under explicit unit economics, complete with a zero-backend browser simulator.
+- **[Coffee-Rust-Forecast](https://github.com/alexkeranis/Coffee-Rust-Forecast)** — Automated 7-night crop disease risk forecaster combining epidemiological rules, GFS weather data, XGBoost, and a daily-updated GitHub Pages dashboard.
+- **[Prostate Visium Candidate Markers](https://github.com/alexkeranis/Prostate-Visium-Candidate-Markers)** — Reproducible spatial transcriptomics and H&E morphology analysis pipeline designed to prioritize biomarker candidates while accounting for tissue composition.
+- **[Xenium Basic Analysis](https://github.com/alexkeranis/Xenium-Basic-Analysis)** — Single-cell spatial transcriptomics workflow (~248k cells) covering background QC, depth-matched testing, and cell-type annotation.
+- **[Default-Risk-Interactive-Predictor](https://github.com/alexkeranis/Default-Risk-Interactive-Predictor)** — Calibrated, cost-aware credit risk benchmark comparing linear, tree-based, and neural tabular models, paired with an interactive browser simulator.
 
-### Core Interests & Toolkit
+### Day-to-day stack
 
-- **Domains:** Computational & Systems Biology, Synthetic Biology, Spatial Omics, Agritech, Quantitative Risk & Modeling
-- **Methods:** Statistical Modeling, Signal Processing, Probability Calibration, Leak-Free Validation, Dynamical Systems
-- **Stack:** Python (`scikit-learn`, `PyTorch`, `XGBoost`, `Scanpy`, `SpatialData`), MATLAB, GitHub Actions CI/CD, JavaScript/HTML (static dashboards)
+Most of my work lives in Python and Jupyter notebooks, leaning on PyTorch, TensorFlow, scikit-learn, and XGBoost, along with spatial omics libraries like Scanpy and SpatialData. When datasets or models get heavy, I incorporate CUDA acceleration into my workflows, and I use `pytest`, GitHub Actions, and lightweight HTML/JS dashboards to keep everything tested and easy to explore.
